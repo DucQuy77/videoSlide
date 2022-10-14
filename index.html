@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video slide</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <h3>video slider 01</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste perspiciatis deserunt consequatur ullam, perferendis ea doloribus autem tempora doloremque ab assumenda labore in quidem est. Distinctio aliquam repudiandae veritatis architecto?</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+                <video src="./video/Clouds - 64759.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3>video slider 02</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste perspiciatis deserunt consequatur ullam, perferendis ea doloribus autem tempora doloremque ab assumenda labore in quidem est. Distinctio aliquam repudiandae veritatis architecto?</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+                <video src="./video/Sakura - 110790.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3>video slider 03</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste perspiciatis deserunt consequatur ullam, perferendis ea doloribus autem tempora doloremque ab assumenda labore in quidem est. Distinctio aliquam repudiandae veritatis architecto?</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+                <video src="./video/Sunset - 111204.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+
+        <div class="next" onclick="next()"> > </div>
+        <div class="prev" onclick="prev()"> < </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
